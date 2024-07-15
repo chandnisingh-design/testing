@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3c093104.css",
+    "main.js": "/static/js/main.6b861b40.js",
+    "static/media/begVideo.mp4": "/static/media/begVideo.caed976eca4e8c185224.mp4",
+    "static/media/3.mp4": "/static/media/3.cf840a7a1a4d24e22576.mp4",
+    "static/media/1.mp4": "/static/media/1.738afbdc08737a183ae7.mp4",
+    "static/media/2.mp4": "/static/media/2.59beacda0d24e9c2a3c4.mp4",
+    "static/media/ConformityPersonalUseRegular-1GMDg.ttf": "/static/media/ConformityPersonalUseRegular-1GMDg.f1c612bbaf731c996cc7.ttf",
+    "static/media/header-bg.png": "/static/media/header-bg.7bc98f3d1ef4fdcc7d92.png",
+    "static/media/women.jpg": "/static/media/women.77fe6999ae2264317394.jpg",
+    "static/media/MarginalPersonalUseOnly-p7n81.otf": "/static/media/MarginalPersonalUseOnly-p7n81.d7b14511d4599186d68e.otf",
+    "static/media/category.jpeg": "/static/media/category.19a84d91db915ef1474b.jpeg",
+    "static/media/exclusive.jpg": "/static/media/exclusive.c4511bb43724e7cf1d18.jpg",
+    "static/media/men.jpg": "/static/media/men.7567d88d8db8a582ccd3.jpg",
+    "static/media/testimonial1.jpg": "/static/media/testimonial1.4537ec7f1926b5aa5879.jpg",
+    "static/media/LogamRegular-8Mv2J.otf": "/static/media/LogamRegular-8Mv2J.936cb93a0dcac6e58414.otf",
+    "index.html": "/index.html",
+    "main.3c093104.css.map": "/static/css/main.3c093104.css.map",
+    "main.6b861b40.js.map": "/static/js/main.6b861b40.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c093104.css",
+    "static/js/main.6b861b40.js"
+  ]
+}
