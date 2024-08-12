@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import {Link} from "react-router-dom";
 
 const Filter =()=>{
     return(
@@ -7,24 +8,24 @@ const Filter =()=>{
         <div className="dropdown">
             <button className="dropbtn">Categories</button>
             <div className="dropdown-content">
-                <a href="#">All Items</a>
-                <a href="#">Sling Bags for Women</a>
-                <a href="#">Bags for Men</a>
-                <a href="#">Wallets</a>
-                <a href="#">Laptop Bags</a>
-                <a href="#"></a>
+                <Link to="#">All Items</Link>
+                <Link to="#">Sling Bags for Women</Link>
+                <Link to="#">Bags for Men</Link>
+                <Link to="#">Wallets</Link>
+                <Link to="#">Laptop Bags</Link>
+                <Link to="#"></Link>
             </div>
         </div>
         <div>
         <div className="dropdown">
             <button className="dropbtn">Sort By:</button>
             <div className="dropdown-content">
-                <a href="#">All Items</a>
-                <a href="#">Sling Bags for Women</a>
-                <a href="#">Bags for Men</a>
-                <a href="#">Wallets</a>
-                <a href="#">Laptop Bags</a>
-                <a href="#"></a>
+                <Link to="#">All Items</Link>
+                <Link to="#">Sling Bags for Women</Link>
+                <Link to="#">Bags for Men</Link>
+                <Link to="#">Wallets</Link>
+                <Link to="#">Laptop Bags</Link>
+                <Link to="#"></Link>
             </div>
         </div>
             <h3>Sort By:</h3>

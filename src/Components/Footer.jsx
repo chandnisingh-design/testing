@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.compat.css";
+import whatsapp from '../img/whatsapp.png'
 
 const Footer=()=>{
 return(
@@ -23,11 +24,12 @@ return(
             </div>
 
             <div className="col-6 col-lg-3 mb-3">
-            <h5 className="lh-lg fw-bold text-1000">Company</h5>
+            <h5 className="lh-lg fw-bold text-1000">Discover</h5>
             <ScrollAnimation animateIn='fadeInBottom' animateOnce={true}>
             <ul className="list-unstyled mb-md-4 mb-lg-0">
                 <li className="lh-lg"><Link to="/AboutUs" className="text-800 text-decoration-none">About Us</Link></li>
-                <li className="lh-lg"><Link to="/Contact" className="text-800 text-decoration-none">Contact Us</Link></li>
+                <li className="lh-lg"><Link to="/Contact" className="text-800 text-decoration-none">Contact Us</Link></li> 
+                <li className="lh-lg"><Link to="/Faq" className="text-800 text-decoration-none">FAQ's</Link></li>
             </ul>
             </ScrollAnimation>
             </div>
@@ -35,10 +37,9 @@ return(
             <h5 className="lh-lg fw-bold text-1000">Help &amp; Support</h5>
             <ScrollAnimation animateIn='fadeInBottom' animateOnce={true}>
             <ul className="list-unstyled mb-md-4 mb-lg-0">
-                <li className="lh-lg"><Link className="text-800 text-decoration-none">My Account</Link></li>
-                <li className="lh-lg"><Link className="text-800 text-decoration-none">Legal & Privacy</Link></li>
-                <li className="lh-lg"><Link className="text-800 text-decoration-none">Delivery Information</Link></li>
-                <li className="lh-lg"><Link className="text-800 text-decoration-none">Returns & Refund Procedure</Link></li>
+                <li className="lh-lg"><Link className="text-800 text-decoration-none" to="/MyAccount">My Account</Link></li>
+                <li className="lh-lg"><Link className="text-800 text-decoration-none" to="/PrivacyPolicy" >Legal & Privacy</Link></li>
+                <li className="lh-lg"><Link className="text-800 text-decoration-none" to= "/Return&Refund">Returns & Refund Procedure</Link></li>
             </ul>
             </ScrollAnimation>
             </div>
@@ -78,8 +79,12 @@ return(
            
         </div>
         </div>
-       
+        
+        <Link aria-label="Chat on WhatsApp" to="https://wa.me/9911335358" className='whatsapp'> 
+            <img alt="Chat on WhatsApp" src={whatsapp} />
+        </Link>
 </section>
+
     </>
 )
 }

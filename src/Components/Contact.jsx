@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Navigation from './Components/Navigation';
-import catimg from './img/category.jpeg';
-import Footer from './Components/Footer';
+import Navigation from './Navigation';
+import catimg from '../img/category.jpeg';
+import Footer from './Footer';
 import { TextField, Button } from '@mui/material';
-import { Form } from 'react-router-dom';
+import {Link} from "react-router-dom";
 
 
 const Contact=()=>{
@@ -21,8 +21,8 @@ const Contact=()=>{
                     </h3>
                     <div class="address">
                         <p class="lh-lg address">G-21, Vatika India Next Gurugram, Near Matrikaran School</p>
-                        <p class="lh-lg mail"><a href="mailto:name@gmail.com">anjalisingh@gmail.com</a></p>
-                        <p class="lh-lg call"><a href="tel:+91123-456-7890"> +1 246-345-0695 </a></p>
+                        <p class="lh-lg mail"><Link to="mailto:name@gmail.com">anjalisingh@gmail.com</Link></p>
+                        <p class="lh-lg call"><Link to="tel:+91123-456-7890"> +1 246-345-0695 </Link></p>
                     </div>
                 </div>
                 <div className="col-md-6">
@@ -31,8 +31,8 @@ const Contact=()=>{
                     </h3>
                     <div class="address">
                         <p class="lh-lg address">G-21, Vatika India Next Gurugram, Near Matrikaran School</p>
-                        <p class="lh-lg mail"><a href="mailto:name@gmail.com">anjalisingh@gmail.com</a></p>
-                        <p class="lh-lg call"><a href="tel:+91123-456-7890"> +1 246-345-0695 </a></p>
+                        <p class="lh-lg mail"><Link to="mailto:name@gmail.com">anjalisingh@gmail.com</Link></p>
+                        <p class="lh-lg call"><Link to="tel:+91123-456-7890"> +1 246-345-0695 </Link></p>
                     </div>
                 </div>
 
@@ -51,7 +51,7 @@ const Contact=()=>{
                                 rows={4}
                                 defaultValue="Type Your Message Here"
                                 />
-                            <Button size="small" variant="contained">Contained</Button>
+                            <Button size="small" variant="contained">Submit</Button>
                            
                         </div>
                     </div>
